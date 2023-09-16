@@ -1,0 +1,49 @@
+.personContainer {
+  padding: 0 40px;
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+
+  .aboutPerson {
+    display: flex;
+    gap: 20px;
+
+    .aboutImg {
+      object-fit: cover;
+      width: 30%;
+    }
+
+    .name {
+      font-size: 1.6rem;
+      font-weight: 300;
+      color: #09C;
+      margin-bottom: 5px
+    }
+
+    .position {
+      color: #C39;
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+
+    .info {
+      color: #626364;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .page {
+      display: flex;
+      gap: 20px;
+      font-size: 1.3rem;
+      padding: 10px;
+      margin-bottom: 15px;
+
+      a {
+        color: #626364;
+      }
+
+    }
+  }
+}

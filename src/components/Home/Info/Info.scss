@@ -1,0 +1,18 @@
+.infoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+    .infoHeader {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .infoText {
+        width: 51%;
+        color: #626364;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+}

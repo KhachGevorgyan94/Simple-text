@@ -1,0 +1,16 @@
+    .underFooter {
+        text-align: center;
+        color: #626364;
+        line-height: 1.8;
+        font-size: 17px;
+        padding-bottom: 20px;
+        .footerLink {
+            color: #626364;
+            text-decoration: none;
+            &:hover {
+                transition: all 0.3s ease;
+                color: rgb(76, 76, 110);
+            }
+        }
+    }
+

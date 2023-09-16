@@ -1,0 +1,41 @@
+$white-color: #FFFFFF;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: $white-color;
+  padding: 50px 80px;
+
+  .logo {
+    display: flex;
+    gap: 10px;
+  }
+
+  .navLink {
+    display: flex;
+    gap: 50px;
+
+    .item a {
+      color: $white-color;
+      font-size: 18px;
+      text-decoration: none;
+
+      &:hover {
+        border-bottom: 1px solid $white-color;
+        padding-bottom: 10px;
+      }
+    }
+
+    .item a.active {
+      border-bottom: 1px solid $white-color;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+}

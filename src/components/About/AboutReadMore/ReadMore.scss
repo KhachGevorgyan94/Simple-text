@@ -1,0 +1,61 @@
+@import "src/assets/style/variables";
+
+.readMoreWrapper {
+  background-color: $white;
+  padding: 40px 60px;
+  display: flex;
+  gap: 100px;
+
+  .readMorePart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .readMoreIcon {
+      font-size: 70px;
+      color: #9f9c9c;
+    }
+
+    .readMoreText {
+      color: #626364;
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+
+    .readMoreBtn {
+      padding: 10px 30px;
+      font-size: 1rem;
+      text-decoration: none;
+      color: #FFFFFF;
+      width: auto;
+      transition: all 0.3s ease;
+    }
+
+    .btnFirst {
+      background-color: #2D99CC;
+
+      &:hover {
+        background-color: #1b6f96;;
+      }
+    }
+
+    .btnSecond {
+      background-color: #319966;
+
+      &:hover {
+        background-color: #1d6e46;
+      }
+    }
+
+    .btnThird {
+      background-color: #993332;
+
+      &:hover {
+        background-color: #752423;;
+      }
+    }
+
+  }
+}

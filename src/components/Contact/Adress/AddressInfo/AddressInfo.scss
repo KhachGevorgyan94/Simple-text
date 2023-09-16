@@ -1,0 +1,38 @@
+.addressInfo {
+    max-width: 315px;
+    .addressHeader {
+        color: #319966;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .addressText {
+        color: #626364;
+        line-height: 1.8;
+        font-style: normal;
+        margin-bottom: 50px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 25px;
+        .phoneNumber {
+            color: #626364;
+            text-decoration: none;
+            .phoneIcon {
+                color: #319966;
+                margin-right: 25px;
+                font-weight: 900;
+            }
+        }
+    }
+    .addressIcon {
+        display: flex;
+        gap: 20px;
+        a {
+            color: #626364;
+            font-size: 1.3rem;
+        }
+    }   
+}

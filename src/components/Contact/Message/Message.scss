@@ -1,0 +1,40 @@
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+    padding: 0 20px;
+    .messageBtn {
+        font-size: 1.2rem;
+        font-family: 'Open Sans', Helevetica, Arial, sans-serif;
+        color: #999;
+        background-color: transparent;
+        border: 1px solid #d0d0d0;
+        cursor: pointer;
+        padding: 20px 20px 6px;
+        width: 100%;
+        max-width: 780px;
+        text-align: left;
+        outline: none;
+        transition: 0.4s;
+        .messageIcon {
+            float: right;
+            font-size: 36px;
+            color: #9f9c9c;
+        }
+        &:hover {
+            color: #09C
+        }
+    }
+    .mesDescription {
+        color: #626364;
+        line-height: 1.8;
+        padding: 5px 20px 30px;
+        margin: 0;
+        font-size: 17px;
+        width: 100%;
+        max-width: 780px;
+    }
+}

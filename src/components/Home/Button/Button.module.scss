@@ -1,0 +1,27 @@
+$white-color: #FFFFFF;
+$green-color: #2F956D;
+.homeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .click {
+    padding: 15px 30px;
+    font-size: 17px;
+    border: 1px solid $green-color;
+    background-color: $white-color;
+    color: $green-color;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover, &.activeCategory {
+      background-color: $green-color;
+      color: $white-color;
+    }
+
+  }
+}
+
+
+
